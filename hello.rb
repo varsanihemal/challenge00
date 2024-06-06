@@ -16,8 +16,8 @@ grand_total = sub_total + pst + gst;
 
 # Displaying outputs.
 puts "Subtotal: $#{sub_total}"
-puts "PST: #{'%.2f' %(PST_RATE * 100)}%"
-puts "GST: #{'%.2f' %(GST_RATE * 100)}%"
+puts "PST: #{'%.2f' %(pst)}"
+puts "GST: #{'%.2f' %(gst)}"
 puts "Grand Total: $#{'%.2f' % grand_total}"
 
 # displays notes based on the grand total.
